@@ -35,6 +35,8 @@ body{
     align-items: center;
 }
 
+
+
 .imagen {
     width: 350px;
     margin-right: 25px;
@@ -53,7 +55,7 @@ h2 {
 }
 
 .slider-frame {
-	width: 1300px;
+	width: 1200px;
     height: auto;
 	margin: 50px;
     
@@ -94,12 +96,8 @@ h2 {
 
 
 .tecnologias{
-    
-
-
     padding: 10px;
     margin: 10px;
-    
 }
 
 .tecnologias__h2{
@@ -136,17 +134,11 @@ h2 {
 
 
 .unProyectoSinMarco{
- 
-
-   
     padding: 10px;
     margin: 10px;
-    
 }
 
 .unProyecto{
- 
-
     border: #fff solid 3px;
     border-radius: 10px;
     padding: 10px;
@@ -211,4 +203,156 @@ aside{
     padding: 5px 0;
     text-align: left;
     margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        position: relative;
+        text-align: center;
+        width: 90%;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .tecnologias{
+        position: relative;
+        top: 150px;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border: none;
+    }
+
+    .proyectos{
+        position: relative;
+        top: 200px;
+    }
+
+    aside{
+        top: 250px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    *{
+        font-size: 10px;
+    }
+
+    header{
+        height: 50px;
+    }
+
+    header img{
+        height: 45px;
+        width: auto;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    .tecnologias{
+        top:90px;
+    }
+
+    .tecnologias__img{
+        width: 50px;
+        padding: 5px;
+    }
+   
+
+    .large{
+        height: 50px;
+        width: auto;
+    }
+
+    .proyectos {
+        text-align: center;
+        top: 120px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    aside{
+        top: 150px;
+      
+    }
+
+    
+
+    .aside__cv{
+        width: 100px;
+        font-size: 1.4em;
+    }
+
+    footer{
+        top:1550px;
+    }
+
+
+
+
+    .slider-frame {
+        width: 300px;
+    }
+
+    .imagen {
+        width: 120px;
+        margin-right: 25px;
+    }
+
+
+    .unProyectoSinMarco{
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
