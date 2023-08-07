@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+header{
+    background-color: #8000FF;
+    padding: 10em 0em;
+    
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+
+.titulo img{
+    width: 6em;
+}
+
+.iconos{
+    text-align: center;
+    width: 100%;
+}
+
+.unaTecnologia{
+    display: inline-block;
+    text-align: center;
+    margin: 0em 2em;
+}
+
+.unaTecnologia img{
+    width: 5em;
+}
+
+.unaTecnologia h2{
+    color: #ffffff;
+}
+
+.TextoLogo{
+    display: inline;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Lalezar', cursive;
+    color: #f2f2f2;
+    margin-bottom: 1em;
+    margin-left: .25em;
+}
+
+.titulo h2{
+    
+    font-size: 5em;
+    color: #f2f2f2;
+}
+
+
+
+
+.encabezado, .desarrollos{
+    text-align: center;
+    width: 100%;
+    padding: 10em 1em;
+}
+
+.encabezado h2, .desarrollos h2{
+    font-size: 2em;
+    margin-bottom: 3.5em;
+}
+
+
+
+.encabezado{
+    background-color: #f2f2f2;
+}
+
+.encabezado h2{
+    color: #8000FF;
+}
+
+.encabezado p{
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    color: #000000
+}
+
+
+
+
+.desarrollos{
+    background-color: #8000FF;
+}
+
+.desarrollos h2{
+    color: #b8ff00;
+}
+
+.desarrollos p, .unDesarrollo p{
+    color: #f2f2f2;
+}
+
+.desarrollos p{
+    font-size: 1.5em;
+}
+
+.unDesarrollo p{
+    font-size: 1.2em;
+}
+
+.subtitulosDesarrollos{
+    margin-bottom: 5em;
+}
+
+.unDesarrollo{
+    text-align: justify;
+    padding: 1.5em;
+    border: solid #ffffff;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.unDesarrollo img{
+    float:left
+}
+
+.unDesarrollo h3{
+    color: #b8ff00;
+
+    font-size: 2em;
+    margin-bottom: .5em;
+
+}
+
+.desarrollos h3, .unDesarrollo h3{
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.aclaracion{
+    color: #f2f2f2;
+    margin-top: 5em;
+    
+}
+
+.unDesarrollo h3{
+    color: #b8ff00;
+}
+
+aside{
+    padding-top: 8em;
+    text-align: center;
+    
+}
+
+aside span{
+    color: #8000FF;
+    
+}
+
+aside h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+aside h3{
+    font-size: 1.5em;
+    margin-bottom: 6em;
+}
+
+
+
+
+@media screen and (max-width: 1366px){
+  
+    *
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    *
+    {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    *
+    {
+        font-size: 6px;
+    }
+
+    .unDesarrollo{
+        border: solid 2px #fff;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    .titulo h2{
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    
+    .titulo h2{
+        font-size: 2.5em;
+    }
+
+    .unaTecnologia h2{
+        font-size: .8em;
+    }
+}
+
+
+
