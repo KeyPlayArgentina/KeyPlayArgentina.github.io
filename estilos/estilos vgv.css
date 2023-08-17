@@ -32,7 +32,7 @@ header{
 
 
 .slider-frame {
-	width: 300px;
+	width: 1200px;
     height: auto;
 	margin:auto;
     
@@ -75,8 +75,8 @@ header{
 
 
 video {
-    width: 200px; /* Ajusta el ancho máximo del contenedor del video */
-    height: 150px; 
+    width: 400px; /* Ajusta el ancho máximo del contenedor del video */
+    height: 300px; 
   }
 
 
@@ -239,6 +239,9 @@ aside h3{
     {
         font-size: 12px;
     }
+    .slider-frame {
+        width: 900px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -246,6 +249,9 @@ aside h3{
     *
     {
         font-size: 10px;
+    }
+    .slider-frame {
+        width: 700px; 
     }
 }
 
@@ -258,12 +264,28 @@ aside h3{
     .unDesarrollo{
         border: solid 2px #fff;
     }
+
+    video {
+        width: 300px; /* Ajusta el ancho máximo del contenedor del video */
+        height: 200px; 
+      }
+      .slider-frame {
+        width: 600px; 
+    }
 }
 
 @media screen and (max-width: 450px){
-    
-    .titulo h2{
+    *
+    {
         font-size: 3.5em;
+    }
+
+    video {
+        width: 200px; /* Ajusta el ancho máximo del contenedor del video */
+        height: 150px; 
+      }
+      .slider-frame {
+        width: 300px; 
     }
 }
 
@@ -276,6 +298,8 @@ aside h3{
     .unaTecnologia h2{
         font-size: .8em;
     }
+
+
 
 }
 
