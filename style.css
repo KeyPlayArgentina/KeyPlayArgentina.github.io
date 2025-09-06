@@ -229,3 +229,13 @@ footer {
     75% { margin-left: -300%; }
     100% { margin-left: -300%; }
 }
+
+
+@font-face {
+  font-family: "MiFuente";
+  src: url("fuentes/ArcadeClassic.ttf") format("truetype");
+}
+
+body {
+  font-family: "MiFuente", sans-serif;
+}
